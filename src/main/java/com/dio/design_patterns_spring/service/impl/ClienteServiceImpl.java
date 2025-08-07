@@ -13,8 +13,7 @@ import com.dio.design_patterns_spring.repository.ClienteRepository;
 import com.dio.design_patterns_spring.repository.EnderecoRepository;
 import com.dio.design_patterns_spring.service.ClienteService;
 import com.dio.design_patterns_spring.service.ViaCepService;
-
-import util.exception.CepInvalidoException;
+import com.dio.design_patterns_spring.util.exception.CepInvalidoException;
 
 @Service
 public class ClienteServiceImpl implements ClienteService {

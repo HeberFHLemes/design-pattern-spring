@@ -1,4 +1,4 @@
-package util.exception;
+package com.dio.design_patterns_spring.util.exception;
 
 public class CepInvalidoException extends RuntimeException {
 
